@@ -1,0 +1,51 @@
+1. Read the paper to familiarize yourself with the models.  Beware that I've only constrained the models longward of 5um.
+
+
+2a. The gzipped tarball spectra.SFAGN.tar.gz contains 21 different spectral models, for 21 different AGN fractions.
+2b. The filename spectra.X.YZAGN.dat implies a mid-infrared AGN percentage of 100*X.YZ
+2c. The units are technically W/[H atom], but I've never used this absolute scaling - I've always just fit these models to the observed flux(es).
+    If you are interested in using these spectra pre-scaled to certain IR luminosities, this has been done in several papers including
+    Marcillac et al. (2006); see their Equation 1      http://adsabs.harvard.edu/abs/2006A%26A...451...57M
+    Rieke et al. (2009);     see their Equation A8     http://adsabs.harvard.edu/abs/2009ApJ...692..556R
+    NOTE: These scalings are only for the pure star-forming SEDs (i.e., AGN fraction=0); think carefully about how to apply any such scalings for AGN fractions > 0.
+2d. The structure of the spectra files:
+
+col. 1:  lambda in microns
+col. 2:  log of nu*f_nu for alpha_SF=0.0625
+col. 3:  log of nu*f_nu for alpha_SF=0.1250
+.
+.
+.
+col. 65: log of nu*f_nu for alpha_SF=4.0000
+
+
+3a. The gzipped tarball fluxes.SFAGN.tar.gz contains 21 files of flux densities obtained from convolving the SEDs with various filters for the 21 different AGN fractions.
+3b. These are flux densities (f_nu and not nu*f_nu).
+3c. The structure of the flux density files:
+
+col. 1: alpha
+col. 2: log f_nu for ISO 7um filter
+col. 3: log f_nu for IRAS 12um
+col. 4: log f_nu for ISO 15um
+col. 5: log f_nu for IRAS 25um
+col. 6: log f_nu for IRAS 60um
+col. 7: log f_nu for IRAS 100um
+col. 8: log f_nu for Spitzer 3.6um
+col. 9: log f_nu for Spitzer 4.5um
+col.10: log f_nu for Spitzer 5.8um
+col.11: log f_nu for Spitzer 8.0um
+col.12: log f_nu for Spitzer 24um
+col.13: log f_nu for Spitzer 70um
+col.14: log f_nu for Spitzer 160um
+col.15: log f_nu for SCUBA 850um
+col.16: log f_nu for VLA 20um
+col.17: log f_nu for SCUBA 450um
+col.18: log f_nu for 200um
+col.19: log f_nu for Herschel 70um
+col.20: log f_nu for Herschel 100um
+col.21: log f_nu for Herschel 160um
+col.22: log f_nu for Herschel 250um
+col.23: log f_nu for Herschel 350um
+col.24: log f_nu for Herschel 500um
+
+4. Conversions between mid-IR (5-20um) and bolometric IR (5-1100um) AGN fractions are provided on the main html page you used to get to this README file (go 'back' on your browser!).

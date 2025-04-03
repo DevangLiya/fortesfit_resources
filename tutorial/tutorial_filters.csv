@@ -1,0 +1,19 @@
+Filtername,Instrument,Observatory,Filename,Format,Includes,Source
+CFHT_u,MegaCam,CFHT,CFHT_MegaCam.u_1.dat,photon,F + C + I + O + A,"SVO, using MegaPipe"
+CFHT_g,MegaCam,CFHT,CFHT_MegaCam.g_1.dat,photon,F + C + I + O + A,"SVO, using MegaPipe"
+CFHT_r,MegaCam,CFHT,CFHT_MegaCam.r_1.dat,photon,F + C + I + O + A,"SVO, using MegaPipe"
+CFHT_i,MegaCam,CFHT,CFHT_MegaCam.i_2.dat,photon,F + C + I + O + A,"SVO, using MegaPipe"
+ACS_F814W,ACS_WFC,HST,HST_ACS_WFC.F814W.dat,photon,F + C + I,"SVO, using stsynphot"
+WFC3_F125W,WFC3_IR,HST,HST_WFC3_IR.F125W.dat,photon,F + C + I,"SVO, from STScI"
+WIRCAM_J,WIRCam,CFHT,CFHT_Wircam.J.dat,energy,F,"SVO, from CFHT"
+WIRCAM_K,WIRCam,CFHT,CFHT_Wircam.Ks.dat,energy,F,"SVO, from CFHT"
+IRAC_CH1,IRAC,Spitzer,Spitzer_IRAC.I1.dat,energy,F + I,"SVO, from IRAC"
+IRAC_CH2,IRAC,Spitzer,Spitzer_IRAC.I2.dat,energy,F + I,"SVO, from IRAC"
+IRAC_CH3,IRAC,Spitzer,Spitzer_IRAC.I3.dat,energy,F + I,"SVO, from IRAC"
+IRAC_CH4,IRAC,Spitzer,Spitzer_IRAC.I4.dat,energy,F + I,"SVO, from IRAC"
+MIPS24,MIPS,Spitzer,Spitzer_MIPS.24mu.dat,energy,F + I,"SVO, from MIPS"
+PACS_100,Pacs,Herschel,Herschel_Pacs.green.dat,energy,F + I,SVO
+PACS_160,Pacs,Herschel,Herschel_Pacs.red.dat,energy,F + I,SVO
+SPIRE_250,SPIRE,Herschel,Herschel_SPIRE.PSW.dat,energy,F + I,"SVO, from Herschel"
+SPIRE_350,SPIRE,Herschel,Herschel_SPIRE.PMW.dat,energy,F + I,"SVO, from Herschel"
+SPIRE_500,SPIRE,Herschel,Herschel_SPIRE.PLW.dat,energy,F + I,"SVO, from Herschel"
